@@ -28,7 +28,7 @@ input_user.click()
 input_user.send_keys("lapcdefran@gmail.com")
 time.sleep(1)
 
-password = 'tuuvieja'
+password = ''
 input_pass = driver.find_element(By.XPATH, '//*[@id="loginForm"]/div/div[2]/div/label/input')
 input_pass.click()
 input_pass.send_keys(password)
